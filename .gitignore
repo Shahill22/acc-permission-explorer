@@ -1,0 +1,77 @@
+# ===============================
+# General
+# ===============================
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.DS_Store
+*.env
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.sqlite3
+*.db
+*.bak
+*.swp
+Thumbs.db
+
+# ===============================
+# Python / Django
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+db.sqlite3
+migrations/__pycache__/
+media/
+staticfiles/
+local_settings.py
+*.egg-info/
+dist/
+build/
+
+# ===============================
+# Node / Vue / Quasar
+# ===============================
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.eslintcache
+coverage/
+*.tsbuildinfo
+
+# ===============================
+# Environment & Secrets
+# ===============================
+*.pem
+*.key
+*.crt
+*.p12
+*.cert
+*.csr
+*.json
+
+# ===============================
+# IDE / OS-specific
+# ===============================
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
